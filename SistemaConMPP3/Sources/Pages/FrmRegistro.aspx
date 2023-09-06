@@ -66,9 +66,9 @@
                     <asp:Label runat="server" CssClass="alert-danger" ID="lblError"></asp:Label>
                     <br />
                     <div class="row">
-                        <asp:Button runat="server" CssClass="form-control btn btn-success" text="Completar Registro" />
+                        <asp:Button runat="server" CssClass="form-control btn btn-success" text="Completar Registro" OnClick="Registrar"/>
                         <hr />
-                        <asp:Button runat="server" CssClass="form-control btn btn-warning" text="Cancelar" />
+                        <asp:Button runat="server" CssClass="form-control btn btn-warning" text="Cancelar" OnClick="Cancelar"/>
                     </div>
                 </div>
 

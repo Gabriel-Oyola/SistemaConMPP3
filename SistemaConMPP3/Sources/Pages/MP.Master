@@ -1,4 +1,4 @@
-﻿
+﻿﻿﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MP.master.cs" Inherits="SistemaConMPP3.Sources.Pages.MP" %>
 
 <!DOCTYPE html>
 
@@ -58,13 +58,13 @@
                                 <button class="dropdown-item">Configuración</button>
                             </li>
                             <li>
-                                <asp:Button runat="server" Text="Perfil" class="dropdown-item"></asp:Button>
+                                <asp:Button runat="server" Text="Perfil" class="dropdown-item" OnClick="Perfil"></asp:Button>
                             </li>
                             <li>
                                 <hr class="dropdown-divider" />
                             </li>
                             <li>
-                                <asp:Button runat="server" Text="Cerrar sesión" class="dropdown-item" ></asp:Button>
+                                <asp:Button runat="server" Text="Cerrar sesión" class="dropdown-item" OnClick="Salir"></asp:Button>
                             </li>
                         </ul>
                     </div>

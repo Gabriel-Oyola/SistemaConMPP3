@@ -28,7 +28,7 @@
                 </div>
                 <br />
                 <div class="input-group">
-                    <asp:Button runat="server" CssClass="form-control btn btn-dark" Text="LOG IN" ></asp:Button>
+                    <asp:Button runat="server" CssClass="form-control btn btn-dark" Text="LOG IN" OnClick="Iniciar"></asp:Button>
                 </div>
                 <br />
                 <br />
@@ -36,7 +36,7 @@
                     <asp:Label runat="server" ID="lblError" class="alert-danger"></asp:Label>
                     <br />
                     <asp:Label runat="server" Text="¿No tienes una cuenta?, Regístrate"></asp:Label>
-                    <asp:LinkButton runat="server" Text=" aquí" ></asp:LinkButton>
+                    <asp:LinkButton runat="server" Text=" aquí" OnClick="Registrarse" ></asp:LinkButton>
                 </div>
             </div>
             </div>

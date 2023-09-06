@@ -7,7 +7,7 @@
 // </generado automáticamente>
 //------------------------------------------------------------------------------
 
-namespace ASP_SP.Sources.Pages
+namespace SistemaConMPP3.Sources.Pages
 {
 
 
